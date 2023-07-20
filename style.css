@@ -45,6 +45,7 @@ p{
     padding:13px 20px;
     border: none;
     cursor: pointer;
+    
 }
 .btn:hover {
     background: #f7c08a;
@@ -118,6 +119,7 @@ p{
     background: url('Assets/lobby.jpg') no-repeat
     center center/cover;
     height: 600px;
+    b
 }
 
 #showcase .showcase-content {
@@ -212,6 +214,31 @@ padding-top: 100px;
     margin-right: 20px;
     border-radius: 50%;
 }
+#contact-form .form-group {
+    margin-bottom: 20px;
+
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid
+}
+#contact-form textarea {
+    height: 200px;
+}
+#contact-form input,
+#contact-form textarea:focus {
+    outline: none;
+    border-color: #f7c08a;
+}
+
 
 /* Footer */
 #main-footer {
@@ -222,3 +249,4 @@ padding-top: 100px;
     padding-top: 5px;
 
 }
+
